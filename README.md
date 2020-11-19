@@ -8,6 +8,6 @@ Please remember to change the path variables in the python and php before using,
 
 Acknowledgements: 
 
-[Matthias A Lee](https://github.com/madmaze), for the development of the python wrapper for pytesseract. 
-[Guido van Rossum](https://github.com/gvanrossum) for making python in the first place
-Everyone listed [here](http://httpd.apache.org/contributors/), for developing apache web server, the software that this projects website runs off.
+[Matthias A Lee](https://github.com/madmaze), for the development of the python wrapper for pytesseract. <br>
+[Guido van Rossum](https://github.com/gvanrossum) for making python in the first place<br>
+and everyone listed [here](http://httpd.apache.org/contributors/), for developing apache web server, the software that this projects website runs off.
