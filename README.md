@@ -5,3 +5,9 @@ This is a simple program designed to run on a WAMP server, that enables the tran
 The "www" folder is for the web page
 And the "Python" is for the python backend.
 Please remember to change the path variables in the python and php before using, or it likely won't work!
+
+Acknowledgements: 
+
+[Matthias A Lee](https://github.com/madmaze), for the development of the python wrapper for pytesseract. 
+[Guido van Rossum](https://github.com/gvanrossum) for making python in the first place
+Everyone listed [here](http://httpd.apache.org/contributors/), for developing apache web server, the software that this projects website runs off.
