@@ -64,6 +64,10 @@ try {
 	// This is due to the uploaded image not being written until we exit the php script, which means we cannot call python
 	// from inside here
 	$file = fopen("done.txt", "w"); // open with write perms
+	while(file_exists('E://wamp64/www/www/PyDone.txt') == FALSE){ // While an indecator file doesn't exist
+	sleep(2.5);
+	}
+	unlink('E://wamp64/www/www/PyDone.txt'); // unlink deletes a file!
 	header("Location: http://49.176.24.198:8080/proc.html");
 	die();
 
