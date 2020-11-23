@@ -7,7 +7,7 @@ And the "Python" is for the python backend.
 Please remember to change the path variables in the python and php before using, or it likely won't work!
 
 Acknowledgements: 
-
+W3 schools, for making the template for bearable web design, this has been used for the websites nice look.
 [Matthias A Lee](https://github.com/madmaze), for the development of the python wrapper for pytesseract. <br>
 [Guido van Rossum](https://github.com/gvanrossum) for making python in the first place<br>
 and everyone listed [here](http://httpd.apache.org/contributors/), for developing apache web server, the software that this projects website runs off.
