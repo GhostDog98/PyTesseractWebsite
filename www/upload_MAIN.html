@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html>
+<title>Image To PDF!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("https://images.unsplash.com/photo-1510511336377-1a9caa095849?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")}
+.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+</style>
 <body>
-
+ 
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Image to PDF</h1>
+    <h2>With python 3.8</h2>
+    <h2><b>Jake Aronleigh</b></h2>
+  </div>
+</header>
+ 
+ 
+ 
+ 
+ 
+ 
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
 <form action="upload.php" method="post" enctype="multipart/form-data">
   Select image to upload:
   <input type="file" name="fileToUpload" id="fileToUpload">
   <input type="submit" value="Upload Image" name="submit">
 </form>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+ 
+<p>Check out the <a href="https://github.com/GhostDog98/PyTesseractWebsite" target="_blank" rel="noopener noreferrer">github page!</a></p>
 
+ 
 </body>
 </html>
