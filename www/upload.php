@@ -68,7 +68,7 @@ try {
 	sleep(2.5);
 	}
 	unlink('E://wamp64/www/www/PyDone.txt'); // unlink deletes a file!
-	header("Location: http://49.176.24.198:8080/proc.html");
+		header("Location: ./proc.html");
 	die();
 
 	
