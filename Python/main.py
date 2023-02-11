@@ -40,7 +40,7 @@ while True:
                 os.remove(GetDir + "\\" + Files[i]) # Remove the items specified in the list, appended to the dir
                 i = i+1 # Iterate i
             with open("E:\wamp64\www\www\log.txt", a) as Logs: # Open the log file to add this has happened
-                Logs.write("Files: " + str(Files)  + "have been removed on " + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + "\n") # Print files that were removed and print the date as well
+                Logs.write("Files: " + str(Files) + "have been removed on " + datetime.now().strftime("%d/%m/%Y %H:%M:%S") + "\n") # Print files that were removed and print the date as well
             print("An internal error has occered with ID 0x01, please contact the admin at ghostoverflow256@gmail.com if this issue persists") # This is so php can pick up the error and communicate it 
             raise FileCheck("An internal error has occered with ID 0x01, please contact the admin at ghostoverflow256@gmail.com if this issue persists") # Communicate that an error has happened to the user
         else: # if this directory has exactly 1 file in it
